@@ -11,3 +11,79 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  width: 100%;
+  background-color: pink;
+  height: 50px;
+}
+
+.searchBar {
+  height: 20px;
+  width: 25%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.tabs {
+  width: 100%;
+  padding: 25px 0;
+}
+
+.tab {
+  width: 25%;
+  float: left;
+  margin-left: 25%;
+  margin-bottom: 25px;
+}
+
+.favourite {
+  width: 50%;
+  float: right;
+  margin-bottom: 25px;
+}
+
+.moviesList {
+  padding: 0 30px;
+}
+
+.movie-card {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 40px 0;
+  background: lightblue;
+  border: 1px black solid;
+  border-radius: 24px;
+}
+
+.left {
+  width: 40%;
+}
+
+.left img{  
+  width: 25%;
+  margin-left: 200px;
+  float: left;
+  margin-top: 25px;
+}
+
+.right {
+  width: 70%;
+  float: right;
+  margin-right: 40px;
+}
+
+.favourite-btn {
+  float: right;
+  background-color: deepskyblue;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
